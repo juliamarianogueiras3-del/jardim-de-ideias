@@ -38,10 +38,14 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.Explorer(),
+   Component.Explorer({
+  folderDefaultState: "collapsed",
+  sortFn: (a, b) =>
+    a.displayName.localeCompare(b.displayName, "pt"),
+}),
   ],
   right: [
-    Component.Graph(),
+    
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
   ],

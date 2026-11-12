@@ -1,3 +1,19 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+
+/* Uniformizar fontes no Explorer */
+.explorer {
+  .folder-container,
+  .folder-container a,
+  .folder-container span,
+  .folder-container button,
+  .folder-outer,
+  .folder-outer a,
+  .folder-outer span,
+  .folder-outer button {
+    font-family: var(--headerFont) !important;
+    font-size: 1.15rem !important;
+    font-weight: 500 !important;
+  }
+}
