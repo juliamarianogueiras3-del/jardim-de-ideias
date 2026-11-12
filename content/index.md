@@ -15,4 +15,4 @@ Livros de referência, filmes e escritas para encontrar inspiração. Algumas id
 
 ---
 
-*Aqui as ideias florescem, pouco a pouco.*
+*Aqui as ideias chegam pouco a pouco.*
